@@ -6,18 +6,22 @@ class Moveable:
     def update_speed(self):
         self.speed = self.implemetor_speed.speed()
 
+
 class Player(Moveable):
     def get_speed(self):
         self.update_speed()
         return f"Du läufst {self.speed}"
 
+
 class ImplementorSpeed:
     def speed(self):
         pass
 
+
 class Fast(ImplementorSpeed):
     def speed(self):
         return "schnell"
+
 
 class Sprint(ImplementorSpeed):
     def speed(self):

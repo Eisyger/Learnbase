@@ -1,8 +1,9 @@
 import time
 import random
 
+
 class Particle:
-    def __init__(self, color: str, duration: int ):
+    def __init__(self, color: str, duration: int):
         self.color = color
         self.duration = duration
         self.is_in_use = False
@@ -11,6 +12,7 @@ class Particle:
         for i in range(self.duration):
             print(f"SPARLKE in {self.color}")
             time.sleep(0.3)
+
 
 class ParticlePool:
     def __init__(self, max_particles):
@@ -45,4 +47,3 @@ if __name__ == "__main__":
     part3.color = "violett"
     part3.duration = 3
     part3.sparkle()
-

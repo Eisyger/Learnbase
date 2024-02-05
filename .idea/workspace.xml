@@ -1,29 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1fbc0f0-55bc-43e7-b342-435e0a57b868" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="d1fbc0f0-55bc-43e7-b342-435e0a57b868" name="Changes" comment="Object Pooling Pattern">
+      <change afterPath="$PROJECT_DIR$/Flyweight.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abstract Factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/Abstract Factory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bridge.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bridge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/Factory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectPool.py" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectPool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prototype.py" beforeDir="false" afterPath="$PROJECT_DIR$/Prototype.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2bujAhAEU5AxCNHjaq6sCoN2Cs4" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Flyweight.executor": "Debug",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Python/Learnbase/Programming-Pattern"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProject" />
@@ -64,7 +91,85 @@
       <option name="presentableId" value="Default" />
       <updated>1707071715482</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1707071877859</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707071877859</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Abstract Factory Pattern">
+      <option name="closed" value="true" />
+      <created>1707071911324</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707071911324</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Bridge Pattern">
+      <option name="closed" value="true" />
+      <created>1707071919084</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707071919084</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Builder Pattern">
+      <option name="closed" value="true" />
+      <created>1707071924049</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707071924049</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Factory Pattern">
+      <option name="closed" value="true" />
+      <created>1707071930951</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707071930951</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Prototype Pattern">
+      <option name="closed" value="true" />
+      <created>1707071946217</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707071946217</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Object Pooling Pattern">
+      <option name="closed" value="true" />
+      <created>1707071957526</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707071957526</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="Abstract Factory Pattern" />
+    <MESSAGE value="Bridge Pattern" />
+    <MESSAGE value="Builder Pattern" />
+    <MESSAGE value="Factory Pattern" />
+    <MESSAGE value="Prototype Pattern" />
+    <MESSAGE value="Object Pooling Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Object Pooling Pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -73,6 +178,11 @@
           <url>file://$PROJECT_DIR$/main.py</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Flyweight.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

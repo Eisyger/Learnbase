@@ -1,14 +1,17 @@
 import copy
 import abc
 
+
 class Creator:
     @abc.abstractmethod
     def factory_method(self):
         pass
 
+
 class Prototype:
     def clone(self):
         pass
+
 
 class Produkt:
     def __init__(self, name, price):
@@ -18,17 +21,21 @@ class Produkt:
     def dump(self):
         return f"Name: {self.name}, Preis: {self.price}"
 
+
 class Poster(Produkt, Prototype):
     def __init__(self, name, price):
         super().__init__(name, price)
+
     def clone(self):
         return copy.deepcopy(self)
+
 
 class PosterCreator(Creator):
     def __init__(self, name, price):
         self.product = Poster(name, price)
+
     def factory_method(self):
-       return self.product
+        return self.product
 
 
 if __name__ == "__main__":
