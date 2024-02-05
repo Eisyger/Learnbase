@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1fbc0f0-55bc-43e7-b342-435e0a57b868" name="Changes" comment="Object Pooling Pattern">
-      <change afterPath="$PROJECT_DIR$/Flyweight.py" afterDir="false" />
+    <list default="true" id="d1fbc0f0-55bc-43e7-b342-435e0a57b868" name="Changes" comment="Flyweight Pattern">
+      <change afterPath="$PROJECT_DIR$/Proxy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abstract Factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/Abstract Factory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bridge.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bridge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Builder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/Factory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ObjectPool.py" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectPool.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prototype.py" beforeDir="false" afterPath="$PROJECT_DIR$/Prototype.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +36,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Python.Flyweight.executor": "Debug",
+    "Python.Flyweight.executor": "Run",
+    "Python.Prototype.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -147,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707071957526</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Flyweight Pattern">
+      <option name="closed" value="true" />
+      <created>1707153622607</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1707153622607</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,7 +172,8 @@
     <MESSAGE value="Factory Pattern" />
     <MESSAGE value="Prototype Pattern" />
     <MESSAGE value="Object Pooling Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Object Pooling Pattern" />
+    <MESSAGE value="Flyweight Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Flyweight Pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -178,11 +182,6 @@
           <url>file://$PROJECT_DIR$/main.py</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Flyweight.py</url>
-          <line>47</line>
-          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
