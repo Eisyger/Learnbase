@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1fbc0f0-55bc-43e7-b342-435e0a57b868" name="Changes" comment="Proxy Pattern">
-      <change afterPath="$PROJECT_DIR$/Observer.py" afterDir="false" />
+    <list default="true" id="d1fbc0f0-55bc-43e7-b342-435e0a57b868" name="Changes" comment="Observer Pattern">
+      <change afterPath="$PROJECT_DIR$/Visitor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,19 +34,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Flyweight.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Prototype.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Proxy.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Python/Learnbase/Programming-Pattern&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Flyweight.executor": "Run",
+    "Python.Observer.executor": "Run",
+    "Python.Prototype.executor": "Run",
+    "Python.Proxy.executor": "Run",
+    "Python.Visitor.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Python/Learnbase/Programming-Pattern"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProject" />
@@ -159,7 +161,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707154629608</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Observer Pattern">
+      <option name="closed" value="true" />
+      <created>1707240995663</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1707240995663</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Observer Pattern">
+      <option name="closed" value="true" />
+      <created>1707241586488</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1707241586488</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,7 +201,8 @@
     <MESSAGE value="Object Pooling Pattern" />
     <MESSAGE value="Flyweight Pattern" />
     <MESSAGE value="Proxy Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Proxy Pattern" />
+    <MESSAGE value="Observer Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Observer Pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
