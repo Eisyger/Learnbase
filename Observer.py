@@ -2,6 +2,7 @@ from abc import ABCMeta, abstractmethod
 
 
 class IUpdate(metaclass=ABCMeta):
+    @abstractmethod
     def update(self, game_score: tuple):
         pass
 
@@ -27,11 +28,18 @@ class LiveTicker(IUpdate):
         print(f"Es steht {score} im Spiel {team_left} gegen {team_right}.")
 
 
+class FootballFan(IUpdate):
+    def update(self, game_score: tuple):
+        print("Tooooor!")
+
+
 if __name__ == "__main__":
     match = FootballMatch()
     ticker = LiveTicker()
+    fan = FootballFan()
 
     match.attach(ticker)
+    match.attach(fan)
 
     match.notify(("Frankreich", "Deutschland", "0:1"))
     match.notify(("Frankreich", "Deutschland", "1:1"))
@@ -40,3 +48,5 @@ if __name__ == "__main__":
     match.detach(ticker)
 
     match.notify(("Frankreich", "Deutschland", "1:3"))
+
+    match.detach(fan)
