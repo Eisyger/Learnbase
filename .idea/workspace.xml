@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1fbc0f0-55bc-43e7-b342-435e0a57b868" name="Changes" comment="Observer Pattern">
-      <change afterPath="$PROJECT_DIR$/Visitor.py" afterDir="false" />
+    <list default="true" id="d1fbc0f0-55bc-43e7-b342-435e0a57b868" name="Changes" comment="Visitor Pattern">
+      <change afterPath="$PROJECT_DIR$/Mediator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +37,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Flyweight.executor": "Run",
+    "Python.Mediator.executor": "Run",
     "Python.Observer.executor": "Run",
     "Python.Prototype.executor": "Run",
     "Python.Proxy.executor": "Run",
@@ -177,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707241586488</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Visitor Pattern">
+      <option name="closed" value="true" />
+      <created>1707244278849</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1707244278849</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,7 +211,8 @@
     <MESSAGE value="Flyweight Pattern" />
     <MESSAGE value="Proxy Pattern" />
     <MESSAGE value="Observer Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Observer Pattern" />
+    <MESSAGE value="Visitor Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Visitor Pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
