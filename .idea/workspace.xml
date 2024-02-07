@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1fbc0f0-55bc-43e7-b342-435e0a57b868" name="Changes" comment="Mediator Pattern">
-      <change afterPath="$PROJECT_DIR$/Strategy.py" afterDir="false" />
+    <list default="true" id="d1fbc0f0-55bc-43e7-b342-435e0a57b868" name="Changes" comment="Strategy Pattern">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flyweight.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flyweight.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,23 +35,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Flyweight.executor": "Run",
-    "Python.Mediator.executor": "Run",
-    "Python.Observer.executor": "Run",
-    "Python.Prototype.executor": "Run",
-    "Python.Proxy.executor": "Run",
-    "Python.Strategy.executor": "Run",
-    "Python.Visitor.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Python/Learnbase/Programming-Pattern"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Flyweight.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Mediator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Observer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Prototype.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Proxy.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Strategy.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Visitor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Python/Learnbase/Programming-Pattern&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProject" />
@@ -195,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707247139830</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Strategy Pattern">
+      <option name="closed" value="true" />
+      <created>1707247941032</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1707247941032</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,17 +231,7 @@
     <MESSAGE value="Observer Pattern" />
     <MESSAGE value="Visitor Pattern" />
     <MESSAGE value="Mediator Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mediator Pattern" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Strategy Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Strategy Pattern" />
   </component>
 </project>

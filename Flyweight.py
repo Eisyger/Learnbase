@@ -10,49 +10,71 @@ class Baum:
 class Birke(Baum):
     def __init__(self, height, color):
         super().__init__(height, color)
+        self.name = "Birke"
 
 
 class Ahorn(Baum):
     def __init__(self, height, color):
         super().__init__(height, color)
+        self.name = "Ahorn"
 
 
 class Flyweight:
     def __init__(self):
-        self._count = 0
-        self._colors = ["green", "red", "yellow"]
-        self.height_range = range(5, 20)
-        self.birken = list()
-        self.ahorne = list()
-        self._generate_trees(20)
+        self._trees = list()
 
-    def _generate_trees(self, count):
-        for _ in range(count):
-            self.birken.append(Birke(random.randint(5, 20), random.choice(self._colors)))
-            self.ahorne.append(Ahorn(random.randint(5, 20), random.choice(self._colors)))
+    def get_tree(self, color: str, height: int, key: str):
 
-    def get_tree(self, color, height, tree_type="Ahorn"):
-        if tree_type == "Ahorn":
-            searched_tree = [t for t in self.ahorne if t.color == color and t.height == height]
-            if searched_tree:
-                print("Baum gefunden")
-                return searched_tree[0]
-            else:
-                print("Baum erstellt")
-                return Ahorn(height, color)
-        elif tree_type == "Birke":
-            searched_tree = [t for t in self.birken if t.height == height]
-            if searched_tree:
-                print("Baum gefunden")
-                return searched_tree[0]
-            else:
-                print("Baum erstellt")
-                return Ahorn(height, color)
+        if key == "Birke":
+            for tree in self._trees:
+                if type(tree) is type(Birke):
+                    print("Tree found.")
+                    return tree
+            new_tree = Birke(height, color)
+            self._trees.append(new_tree)
+            print("Tree created.")
+            return new_tree
+
+        elif key == "Ahorn":
+            for tree in self._trees:
+                if type(tree) is type(Ahorn):
+                    print("Tree found.")
+                    return tree
+            new_tree = Ahorn(height, color)
+            self._trees.append(new_tree)
+            print("Tree created.")
+            return new_tree
+
+        elif key == "Color":
+            for tree in self._trees:
+                if tree.color == color:
+                    print("Tree found.")
+                    return tree
+            new_tree = Baum(height, color)
+            self._trees.append(new_tree)
+            print("Tree created.")
+            return new_tree
+
+        elif key == "Height":
+            for tree in self._trees:
+                if tree.height == height:
+                    print("Tree found.")
+                    return tree
+            new_tree = Baum(height, color)
+            self._trees.append(new_tree)
+            print("Tree created.")
+            return new_tree
+
+        else:
+            raise Exception("Key konnte nich verarbeitet werden")
 
 
 if __name__ == "__main__":
     fw = Flyweight()
-    birke = fw.get_tree("green", 14, "Birke")
-    ahorn = fw.get_tree("green", 11, "Ahorn")
-    print(birke.color)
-    print(ahorn.height)
+    tree1 = fw.get_tree("green", 14, "Height")
+    tree2 = fw.get_tree("blue", 14, "Height")
+    tree3 = fw.get_tree("blue", 25, "Color")
+    tree4 = fw.get_tree("blue", 25, "Color")
+    print(tree1.color)
+    print(tree2.height)
+    print(type(tree3))
