@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1fbc0f0-55bc-43e7-b342-435e0a57b868" name="Changes" comment="Chain of Responsibility Pattern">
-      <change afterPath="$PROJECT_DIR$/Command.py" afterDir="false" />
+    <list default="true" id="d1fbc0f0-55bc-43e7-b342-435e0a57b868" name="Changes" comment="Command Pattern">
+      <change afterPath="$PROJECT_DIR$/Memento.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +37,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Chain of Responsibility.executor": "Run",
+    "Python.Command.executor": "Run",
     "Python.Flyweight.executor": "Run",
     "Python.Mediator.executor": "Run",
+    "Python.Memento.executor": "Run",
     "Python.Observer.executor": "Run",
     "Python.Prototype.executor": "Run",
     "Python.Proxy.executor": "Run",
@@ -219,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707327336560</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Command Pattern">
+      <option name="closed" value="true" />
+      <created>1707330294220</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1707330294220</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,6 +260,7 @@
     <MESSAGE value="Strategy Pattern" />
     <MESSAGE value="dynamic list in Flyweight Pattern" />
     <MESSAGE value="Chain of Responsibility Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chain of Responsibility Pattern" />
+    <MESSAGE value="Command Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Command Pattern" />
   </component>
 </project>
