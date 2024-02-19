@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1fbc0f0-55bc-43e7-b342-435e0a57b868" name="Changes" comment="Command Pattern">
-      <change afterPath="$PROJECT_DIR$/Memento.py" afterDir="false" />
+    <list default="true" id="d1fbc0f0-55bc-43e7-b342-435e0a57b868" name="Changes" comment="Template Pattern">
+      <change afterPath="$PROJECT_DIR$/Iterator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,26 +34,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Chain of Responsibility.executor": "Run",
-    "Python.Command.executor": "Run",
-    "Python.Flyweight.executor": "Run",
-    "Python.Mediator.executor": "Run",
-    "Python.Memento.executor": "Run",
-    "Python.Observer.executor": "Run",
-    "Python.Prototype.executor": "Run",
-    "Python.Proxy.executor": "Run",
-    "Python.Strategy.executor": "Run",
-    "Python.Visitor.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Python/Learnbase/Programming-Pattern"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Chain of Responsibility.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Command.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Flyweight.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Mediator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Memento.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Observer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Prototype.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Proxy.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Strategy.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Template.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Visitor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Python/Learnbase/Programming-Pattern&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProject" />
@@ -230,7 +231,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707330294220</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Memento Pattern">
+      <option name="closed" value="true" />
+      <created>1707422214285</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1707422214285</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Template Pattern">
+      <option name="closed" value="true" />
+      <created>1707422846019</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1707422846019</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -261,6 +278,8 @@
     <MESSAGE value="dynamic list in Flyweight Pattern" />
     <MESSAGE value="Chain of Responsibility Pattern" />
     <MESSAGE value="Command Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Command Pattern" />
+    <MESSAGE value="Memento Pattern" />
+    <MESSAGE value="Template Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Template Pattern" />
   </component>
 </project>
