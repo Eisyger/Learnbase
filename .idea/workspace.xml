@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1fbc0f0-55bc-43e7-b342-435e0a57b868" name="Changes" comment="Iterator Pattern version 2">
-      <change afterPath="$PROJECT_DIR$/Interpreter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interpreter_test.py" afterDir="false" />
+    <list default="true" id="d1fbc0f0-55bc-43e7-b342-435e0a57b868" name="Changes" comment="Interpreter Pattern, noch unzufrieden">
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +40,7 @@
     "Python.Chain of Responsibility.executor": "Run",
     "Python.Command.executor": "Run",
     "Python.Flyweight.executor": "Run",
+    "Python.Interpreter.executor": "Run",
     "Python.Interpreter_test.executor": "Run",
     "Python.Iterator.executor": "Run",
     "Python.Mediator.executor": "Run",
@@ -51,6 +52,7 @@
     "Python.Template.executor": "Run",
     "Python.Visitor.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.test.executor": "Run",
     "Python.test_iter.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -267,7 +269,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708979671483</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Interpreter Pattern, noch unzufrieden">
+      <option name="closed" value="true" />
+      <created>1709058782548</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1709058782548</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -302,6 +312,7 @@
     <MESSAGE value="Template Pattern" />
     <MESSAGE value="Iterator Pattern" />
     <MESSAGE value="Iterator Pattern version 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Iterator Pattern version 2" />
+    <MESSAGE value="Interpreter Pattern, noch unzufrieden" />
+    <option name="LAST_COMMIT_MESSAGE" value="Interpreter Pattern, noch unzufrieden" />
   </component>
 </project>

@@ -54,7 +54,7 @@ class NonTerminal(Expression):
                         self.tokens.pop(right)
                         self.tokens.pop(i)
 
-        return self.tokens[0]
+        return self.tokens.pop()
 
     def mul(self, left, right):
         return left.interprete() * right.interprete()
